@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KBO 도장깨기</title>
+    <link rel="icon" href="자료/KBO 로고.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+      .image_sec {
+        height:100vh;
+        background: url('자료/baseball_규칙.jpg') no-repeat center fixed;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding-top: 480px;
+      }
+      header, h1, h5, .fonts {
+        font-family: 'KBOfont1';
+      }
+      header p, .navbar, .container {
+        font-family: 'KBOfont3';
+      }
+      h3, .fonts2 {
+        font-family: 'KBOfont2';
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- 네비게이션 영역 시작 -->
+    <nav class="navbar navbar-expand-md fixed-top bg-light">
+      <div class="container-fluid">
+        <a href="index.html">
+          <img src="자료/KBO 네비게이션 로고.png" alt="KBO 네비게이션 로고" width="40%"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubar"
+          aria-controls="menubar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menubar">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">홈</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="KBO_profile.html">구단소개</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">정보</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="KBO_rules.html">규칙</a></li>
+                <li><a class="dropdown-item" href="KBO_dictionary.html">단어사전</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="KBO_contact.html">연락처/문의</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <section class="image_sec">
+        <h1 class="display-2 d-block fw-bold text-center mb-0">KBO 규칙</h1>
+        <p class="fw-bold scroll">↓ 스크롤 ↓</p>
+      </section>
+    </header>
+
+    <section class="container my-5">
+      <div>
+        <h1 class="fs-10 pt-5 pb-5 fw-bold">규칙</h1>
+        <p>야구는 <span class="text-danger fw-bold">공격수</span>, <span class="text-primary fw-bold">수비수</span> 포함 각 <b>10명</b>으로 구성된 양 팀이 각각 <b>9이닝</b>에 걸친 공수로 승부를 가리며, 두 팀 중 더 많이 <b>득점</b>한 팀이 승리한다.</p>
+        <p>만약 9회 말이 끝나도 <b>동점 상황</b>이 유지될 시에는 <b>12회</b>까지 경기를 연장 진행하고, 12회 말까지 동점이면 경기를 종료하고 <b>무승부</b>로 인정한다.</p>
+        <p>경기장 내부에 <b>홈플레이트</b> 한 개와 <b>베이스</b> 세 개(위치에 따라 <b>1루</b>, <b>2루</b>, <b>3루</b>로 칭한다)가 마련되어 있다. <span class="text-danger fw-bold">공격팀</span>의 선수는 <span class="text-danger fw-bold">1루-2루-3루</span>를 차례로 지나서 <span class="text-danger fw-bold">홈</span>으로 들어와 <span class="text-danger fw-bold">1점</span>을 득점하는 것이 목표다. <span class="text-primary fw-bold">수비팀</span>은 이러한 공격팀 선수들을 <span class="text-primary fw-bold">아웃</span>시켜야 한다. 수비팀에서 <span class="text-primary fw-bold">아웃카운트 세 개</span>를 적립하면 <b>공수</b>를 <b>교대</b>한다.</p>
+        <p>모든 플레이는 <b>투수</b>가 공을 던지는 것에서 시작한다. 투수가 <b>스트라이크</b>를 세 번 던지면 타자는 <b>삼진 아웃</b>으로 물러나고, <b>볼</b>을 네 번 던지면 타자는 <b>볼넷 출루</b>로 1루에 걸어나간다. 타자가 친 공이 <b>파울 라인 바깥</b>으로 벗어날 때에는 <b>파울</b>이 선언되며 <b>스트라이크</b>가 하나 더 붙는데, <b>2스트라이크 이후</b>에 파울이 선언될 시 스트라이크로 계산하지 않는다.</p>
+        <p>공격팀의 <span class="text-danger fw-bold">타자 9명</span>은 <b>정해진 타순</b>에 의해 공격이 진행된다. 타자가 공을 타격해 베이스로 달려나갈 때, 타자 또는 주자가 베이스를 밟기 전에 <span class="text-primary fw-bold">수비수</span>가 글러브로 공을 잡아 해당 베이스를 밟으면 <b>아웃</b> 처리된다. 반면 <span class="text-danger fw-bold">공격 팀 선수</span>가 베이스에 먼저 도착하면 <b>세이프</b>로 처리된다.</p>
+        <p>예외로, 타자가 친 공이 포물선을 그리며 올라가 한 번도 땅에 닿지 않은 채로 <span class="text-primary fw-bold">수비수</span>에게 잡히면 베이스를 밟지 않아도 <b>뜬공 아웃</b> 처리된다. 이는 수비수가 <b>파울 라인 바깥</b>에서 잡았을 시에도 똑같이 적용된다. 이때 <span class="text-danger fw-bold">주자</span>는 본인이 원래 점유하던 <b>베이스</b>로 재빨리 돌아가 밟고 있어야 추가 아웃카운트 적립을 막을 수 있다.</p>
+        <p>이를 이용한 플레이로 <b>태그업</b>이 있는데, <span class="text-danger fw-bold">타자</span>가 친 뜬공을 <span class="text-primary fw-bold">수비수</span>가 잡은 뒤 <span class="text-danger fw-bold">주자</span>가 <b>진루</b>를 시도하는 것이다. 여기서 주자는 공이 수비수에게 잡히는 시점까지 본인이 점유하는 <b>베이스</b>를 밟고 있다가 진루해야 한다.</p>
+      </div>
+      <br><br><hr>
+      <div>
+        <h1 class="fs-10 pt-5 pb-5 fw-bold">포지션별 위치</h1>
+        <img src="자료/포지션1.png" class="mx-auto d-block" alt="포지션" width=80%>
+      </div>
+    </section>
+
+    <!-- 푸터 영역 -->
+    <footer class="text-center py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a class="fw-bold link-light text-decoration-none fs-5 fonts" href="index.html"><img src="자료/KBO 로고1.png" alt="로고" class="my-3 " width="40px">KBO 도장깨기</a>
+            <p class="fonts2">Korea Baseball Organization<br>한국 야구 위원회</p>
+            <i class="bi bi-link-45deg"></i><a href="http://www.koreabaseballmuseum.com/" class="link-light text-decoration-none"> 디지털 야구 박물관</a>
+          </div>
+          <div class="col-md-4">
+            <h5 class="fw-bold my-3">About KBO</h5>
+            <ul class="list-unstyled">
+              <li><a class="link-light text-decoration-none" href="KBO_profile.html">구단소개</a></li>
+              <li><a class="link-light text-decoration-none" href="KBO_rules.html">규칙</a></li>
+              <li><a class="link-light text-decoration-none" href="KBO_dictionary.html">단어사전</a></li>
+              <li><a class="link-light text-decoration-none" href="KBO_contact.html">연락처/문의</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="fw-bold my-3">SNS</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-link-45deg"></i><a href="https://www.koreabaseball.com/Default.aspx" class="link-light text-decoration-none"> 공식 홈페이지</a></li>
+              <li><i class="bi bi-link-45deg"></i><a href="https://www.youtube.com/@KBO1982" class="link-light text-decoration-none"> 유튜브</a></li>
+              <li><i class="bi bi-link-45deg"></i><a href="https://www.instagram.com/kbo.official/" class="link-light text-decoration-none"> 인스타그램</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="my-3"><i class="bi bi-c-circle"></i> ALL RIGHT RESERVED BY <span class="text-info">KBO 도장깨기</span></p>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

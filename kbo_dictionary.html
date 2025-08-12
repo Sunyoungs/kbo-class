@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KBO 도장깨기</title>
+    <link rel="icon" href="자료/KBO 로고.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+      .image_sec {
+        height:100vh;
+        background: url('자료/baseball_단어사전.jpg') no-repeat center fixed;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding-top: 480px;
+      }
+      h3, header, .nav-tabs, footer h5, .fonts {
+        font-family: 'KBOfont1';
+      }
+      header p, .navbar, .container {
+        font-family: 'KBOfont3';
+      }
+      .fonts2 {
+        font-family: 'KBOfont2';
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- 네비게이션 영역 시작 -->
+    <nav class="navbar navbar-expand-md fixed-top bg-light">
+      <div class="container-fluid">
+        <a href="index.html">
+          <img src="자료/KBO 네비게이션 로고.png" alt="KBO 네비게이션 로고" width="40%"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubar"
+          aria-controls="menubar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menubar">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">홈</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="KBO_profile.html">구단소개</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">정보</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="KBO_rules.html">규칙</a></li>
+                <li><a class="dropdown-item" href="KBO_dictionary.html">단어사전</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="KBO_contact.html">연락처/문의</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <section class="image_sec">
+        <h1 class="display-2 d-block fw-bold text-center mb-0">KBO 단어 사전</h1>
+        <p class="fw-bold scroll">↓ 스크롤 ↓</p>
+      </section>
+    </header>
+
+    <section class="container">
+      <div class="nav nav-tabs" role="tablist">
+        <button class="nav-link link-dark active" id="play-tab" data-bs-toggle="tab" data-bs-target="#play-content" type="button" role="tab" aria-controls="play-content" aria-selected="true">경기</button>
+        <button class="nav-link link-dark" id="pitcher-tab" data-bs-toggle="tab" data-bs-target="#pitcher-content" type="button" role="tab" aria-controls="pitcher-content" aria-selected="false" tabindex="-1">공격</button>
+        <button class="nav-link link-dark" id="batter-tab" data-bs-toggle="tab" data-bs-target="#batter-content" type="button" role="tab" aria-controls="batter-content" aria-selected="false" tabindex="-1">수비</button>
+      </div>
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="play-content" role="tabpanel" aria-labelledby="play-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">스트라이크</h3>
+                  </div>
+                </div>
+                <h5>투수가 던진 공이 스트라이크존을 지나가거나, 타자가 공에 헛스윙 하는 것</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">볼</h3>
+                  </div>
+                </div>
+                <h5>투수가 던진 공이 스트라이크존이 아닌 다른 곳으로 가는 것</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">마운드</h3>
+                  </div>
+                </div>
+                <h5>투수가 공을 던지는 지역</h5>
+                <h5>내야 중앙에 위치하고 있으며 구장 내 다른 지역보다 높이가 더 높다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">타석</h3>
+                  </div>
+                </div>
+                <h5>타자가 공을 치도록 정해놓은 구역</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">이닝</h3>
+                  </div>
+                </div>
+                <h5>양 팀이 한 번씩의 공격을 주고 받는 단위</h5>
+                <h5>초/말로 구성되며, 아웃카운트 6개를 모두 소진할 시 한 이닝이 종료된다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">1루</h3>
+                  </div>
+                </div>
+                <h5>내야의 첫 번째 베이스</h5>
+                <h5>타자가 안타 또는 사사구를 얻으면 1루로 갈 수 있다.</h5>
+                <h5>공격팀 코치가 나가 주자의 보호대를 챙겨주거나 작전을 지시한다.</h5>
+                <h5>수비팀에서는 1루수가 지키고 있다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">2루</h3>
+                  </div>
+                </div>
+                <h5>내야의 두 번째 베이스</h5>
+                <h5>베이스를 지키는 수비수가 없고 양 옆에 2루수와 유격수가 있다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">3루</h3>
+                  </div>
+                </div>
+                <h5>내야의 세 번째 베이스</h5>
+                <h5>공격팀의 주루코치가 나가 주자에게 도루 또는 진루를 지시하거나, 타자에게 작전을 지시한다.</h5>
+                <h5>3루수가 지키고 있다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">홈플레이트</h3>
+                  </div>
+                </div>
+                <h5>양 타석 사이에 위치한 오각형 모양의 흰색 팜</h5>
+                <h5>간단하게 홈이라고도 한다.</h5>
+                <h5>공격수가 홈을 밟으면 해당 팀의 득점으로 인정된다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">내야</h3>
+                  </div>
+                </div>
+                <h5>3개의 베이스와 홈플레이스를 이어 만든 사각형의 안쪽 영역</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">외야</h3>
+                  </div>
+                </div>
+                <h5>1루-2루-3루를 잇는 선의 뒤 쪽부터 펜스 앞까지의 영역</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">파울 지역</h3>
+                  </div>
+                </div>
+                <h5>홈플레이트-1루, 홈플레이트-3루를 이은 선을 연장해 펜스까지 그어 놓은 연장선의 바깥 쪽</h5>
+                <h5>파울 지역에 공이 떨어지면 정상적인 플레이 선언이 되지 않는다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball1.png" alt="경기" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">벤치클리어링</h3>
+                  </div>
+                </div>
+                <h5>대기 선수 및 코치진까지 전부 그라운드에 나와서 싸우는 난투극</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="pitcher-content" role="tabpanel" aria-labelledby="pitcher-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">타자</h3>
+                  </div>
+                </div>
+                <h5>공격시 배트를 가지고 타석에서 공을 치는 선수</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">주자</h3>
+                  </div>
+                </div>
+                <h5>1루, 2루 또는 3루 베이스를 점유한 선수</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">안타</h3>
+                  </div>
+                </div>
+                <h5>넓은 의미 : '안전타격'의 준말로, 수비 측의 실책 없이 타자가 안전하게 베이스에 도착할 수 있게 때린 타구</h5>
+                <h5>좁은 의미 : 1루타(단타)만을 의미</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">타율</h3>
+                  </div>
+                </div>
+                <h5>안타를 타수로 나눈 값</h5>
+                <h5>타자의 공격 지표를 나타내는 대표적인 기록이다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">홈런</h3>
+                  </div>
+                </div>
+                <h5>타자가 친 공이 담장을 넘어가거나, 타자가 1루-2루-3루를 돌아 홈 베이스를 밟을 수 있는 안타</h5>
+                <h5>홈런을 쳤을 때 주자의 수에 따라서 솔로 홈런(1점), 투런 홈런(2점), 쓰리런 홈런(3점), 만루 홈런(4점)으로 표현한다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">삼진 아웃</h3>
+                  </div>
+                </div>
+                <h5>타자가 투수에게 스트라이크를 세 번 당해 아웃되는 것</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">볼넷</h3>
+                  </div>
+                </div>
+                <h5>타자가 볼 카운트 4개를 얻어내 1루로 나가는 것</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">사사구</h3>
+                  </div>
+                </div>
+                <h5>볼넷과 몸에 맞는 공을 합쳐서 이르는 말</h5>
+                <h5>둘 다 타자가 1루로 나간다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">출루</h3>
+                  </div>
+                </div>
+                <h5>타자가 1루에 살아나가서 주자가 되는 것</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">타점</h3>
+                  </div>
+                </div>
+                <h5>타자의 플레이로 주자가 홈에 들어와 득점했을 때 타자에게 주어지는 점수</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">적시타</h3>
+                  </div>
+                </div>
+                <h5>1루, 2루 또는 3루 상에 주자가 있을 때 타점을 올리는 안타</h5>
+                <h5>단, 홈런은 적시타라고 부르지 않는다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">도루</h3>
+                  </div>
+                </div>
+                <h5>투수가 공을 던지는 동안 주자가 전력질주하여 다음 베이스로 가는 것</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">번트</h3>
+                  </div>
+                </div>
+                <h5>타자가 배트를 가로로 잡는 자세를 하고 투수가 던지는 공을 툭 건드려 필드에 떨어트리는 타격 기술</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">땅볼 아웃</h3>
+                  </div>
+                </div>
+                <h5>타자가 친 공이 땅에 맞고 수비수들 앞으로 굴러와 아웃으로 처리되는 것</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">뜬공 아웃</h3>
+                  </div>
+                </div>
+                <h5>타자가 친 공이 땅에 닿지 않고 한 번에 수비수에게 잡혀 아웃으로 처리되는 것</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">희생플라이</h3>
+                  </div>
+                </div>
+                <h5>타자가 외야 쪽으로 뜬공을 쳐서 수비수가 잡아 아웃시킨 후, 3루 베이스를 밟고 있던 주자가 홈으로 출발하여 수비 측의 태그아웃 시도보다 먼저 홈에 들어와 득점한 것</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">병살타</h3>
+                  </div>
+                </div>
+                <h5>한 번의 타격에 연속으로 두 개의 아웃 카운트가 생기는 것</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball2.png" alt="공격" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">사이클링 히트</h3>
+                  </div>
+                </div>
+                <h5>한 명의 타자가 한 경기에 안타(1루타), 2루타, 3루타, 홈런을 모두 치는 것</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="batter-content" role="tabpanel" aria-labelledby="batter-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">투수</h3>
+                  </div>
+                </div>
+                <h5>마운드에 서서 상대편 타자가 칠 공을 포수에게 던지는 선수</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">선발 투수</h3>
+                  </div>
+                </div>
+                <h5>투수 중에서 경기의 맨 처음에 등판하는 투수</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">마무리 투수</h3>
+                  </div>
+                </div>
+                <h5>경기 종료가 얼마 남지 않았을 때 경기를 확실하게 끝내기 위해 마지막 이닝에 등판하는 투수</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">중간계투</h3>
+                  </div>
+                </div>
+                <h5>선발 투수와 마무리 투수 사이에 중간의 이닝에 올라가서 던지는 투수</h5>
+                <h5>'구원 투수' 또는 '불펜'이라고도 부른다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">불펜</h3>
+                  </div>
+                </div>
+                <h5>야구장에서 투구 연습을 하는 장소</h5>
+                <h5>또는 구원 투수진을 부르는 야구 용어</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">투구</h3>
+                  </div>
+                </div>
+                <h5>투수가 던진 공 혹은 그 동작을 일컫는 단어</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">탈삼진</h3>
+                  </div>
+                </div>
+                <h5>투수가 타자에게 스트라이크를 세 번 던져 삼진을 잡는 것</h5>
+                <h5>타자에게 삼진을 뺏어낸다는 의미에서 탈(奪)삼진이라고 표현한다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">완투</h3>
+                  </div>
+                </div>
+                <h5>선발 투수가 처음부터 경기 종료 시까지 모든 투구를 했을 경우 주어지는 기록</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">강판</h3>
+                  </div>
+                </div>
+                <h5>투수가 주어진 임무를 완수하지 못하고 강제로 교체되어 마운드를 내려오는 것</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">세이브</h3>
+                  </div>
+                </div>
+                <h5>경기 종료 시 승리 팀에서 마지막으로 던진 구원 투수에게 주어지는 기록</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">블론세이브</h3>
+                  </div>
+                </div>
+                <h5>세이브 조건에서 동점 또는 역전을 허용한 경우 마운드에 있는 투수에게 주어지는 기록</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">홀드</h3>
+                  </div>
+                </div>
+                <h5>경기 종료 전 마운드를 내려간 투수가 세이브 조건을 충족했을 시 주어지는 기록</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">승리 투수</h3>
+                  </div>
+                </div>
+                <h5>동점이나 역전을 허용하지 않고 팀을 승리로 이끈 투수</h5>
+                <h5>선발 투수가 승리 투수가 되기 위해서는 최소 5이닝 이상 투구하고, 이후에 등판한 투수에 의해 동점이나 역전이 되지 않고 팀이 승리해야 한다.</h5>
+                <h5>동점 상황 혹은 지고 있을 때 구원 투수가 등판하여 팀이 역전승을 한 경우에는 해당 투수가 승리 투수로 기록된다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">자책점</h3>
+                  </div>
+                </div>
+                <h5>실점 중 투수의 책임이 되는 실점</h5>
+                <h5>수비수의 실책, 타격방해, 패스트볼, 주루방해에 의한 실점은 자책점으로 인정하지 않는다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">퀄리티스타트(QS)</h3>
+                  </div>
+                </div>
+                <h5>선발 투수가 6이닝 이상을 3자책점 이하로 막은 경우</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">미트</h3>
+                  </div>
+                </div>
+                <h5>일반 수비수의 글러브와 달리 포수와 1루수가 쓰는 특수 제작된 장갑</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">폭투</h3>
+                  </div>
+                </div>
+                <h5>투수가 던진 공이 포수가 잡을 수 없는 코스로 오는 경우</h5>
+                <h5>이 때 타자나 주자가 한 베이스씩 더 움직일 수 있다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">패스트볼</h3>
+                  </div>
+                </div>
+                <h5>투수가 던진 공을 포수가 명백히 받을 수 있는 상황에서 포수의 미트에 맞고 빠진 경우</h5>
+                <h5>'포일'이라고도 한다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">포수</h3>
+                  </div>
+                </div>
+                <h5>캐쳐 박스에 앉아 홈을 지키며 투수가 던지는 공을 받는 수비수</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">내야수</h3>
+                  </div>
+                </div>
+                <h5>내야 지역에서 수비를 하는 수비수</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">외야수</h3>
+                  </div>
+                </div>
+                <h5>외야 지역에서 수비를 하는 수비수</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">1루수</h3>
+                  </div>
+                </div>
+                <h5>1루를 중심으로 그 주변을 수비하는 내야수</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">2루수</h3>
+                  </div>
+                </div>
+                <h5>2루를 중심으로 그 주변을 수비하는 내야수</h5>
+                <h5>유격수와 같이 2루를 지키기 때문에 1루와 2루 가운데 지점에 위치한다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">3루수</h3>
+                  </div>
+                </div>
+                <h5>3루를 중심으로 그 주변을 수비하는 내야수</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">유격수</h3>
+                  </div>
+                </div>
+                <h5>2루와 3루 사이를 중심으로 하여 그 주변을 수비하는 내야수</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">좌익수</h3>
+                  </div>
+                </div>
+                <h5>외야의 좌측 부분을 수비하는 외야수</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">중견수</h3>
+                  </div>
+                </div>
+                <h5>외야의 중앙 부분을 수비하는 외야수</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">우익수</h3>
+                  </div>
+                </div>
+                <h5>외야의 우측 부분을 수비하는 외야수</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">호수비</h3>
+                  </div>
+                </div>
+                <h5>좋은 수비</h5>
+                <h5>호수비를 성공하면 분위기가 수비 팀으로 상당히 기울 수 있다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">견제</h3>
+                  </div>
+                </div>
+                <h5>투수가 투구를 하지 않고 수비수에게 공을 던져 해당 베이스에 있는 주자의 움직임을 확인하는 행동</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">구위</h3>
+                  </div>
+                </div>
+                <h5>투수의 탈삼진율이 높으며, 배트에 공이 맞더라도 장타로 연결될 확률이 적은 투수의 공을 구위가 좋다고 표현한다.</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">삼자범퇴</h3>
+                  </div>
+                </div>
+                <h5>공격팀이 한 이닝동안 한 명도 출루를 하지 못한 상태로 3명의 타자가 연달아 아웃되며 이닝이 끝나는 상황</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">수비 시프트</h3>
+                  </div>
+                </div>
+                <h5>각 타자에 맞춰서 수비하기 용이하도록 수비 위치를 조정하는 것</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">실책</h3>
+                  </div>
+                </div>
+                <h5>수비수가 정상적인 플레이를 했을 경우 아웃 처리할 수 있었던 주자를 살리거나, 진루를 막을 수 있는 주자의 진루를 허용한 경우</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">태그아웃</h3>
+                  </div>
+                </div>
+                <h5>수비수가 공을 잡은 후 주자의 몸에 글러브를 직접 터치해 아웃시키는 것</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">타격방해</h3>
+                  </div>
+                </div>
+                <h5>타자의 타격을 방해하는 행위</h5>
+                <h5>보통 포수의 미트가 타자의 배트에 닿으면서 발생한다.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="m-5">
+                <div class="d-flex align-items-center">
+                  <div class="me-3">
+                    <img src="자료/baseball3.png" alt="수비" width="30px">
+                  </div>
+                  <div class="me-3 my-3">
+                    <h3 class="fw-bold">주루방해</h3>
+                  </div>
+                </div>
+                <h5>수비수가 주자의 주루를 방해하는 행위</h5>
+                <h5>공을 가지고 있지 않은 수비수가 주자의 길을 막거나, 신체적 접촉을 해서 주자를 방해하는 행위</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 푸터 영역 -->
+    <footer class="text-center py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a class="fw-bold link-light text-decoration-none fs-5 fonts" href="index.html"><img src="자료/KBO 로고1.png" alt="로고" class="my-3 " width="40px">KBO 도장깨기</a>
+            <p class="fonts2">Korea Baseball Organization<br>한국 야구 위원회</p>
+            <i class="bi bi-link-45deg"></i><a href="http://www.koreabaseballmuseum.com/" class="link-light text-decoration-none"> 디지털 야구 박물관</a>
+          </div>
+          <div class="col-md-4">
+            <h5 class="fw-bold my-3">About KBO</h5>
+            <ul class="list-unstyled">
+              <li><a class="link-light text-decoration-none" href="KBO_profile.html">구단소개</a></li>
+              <li><a class="link-light text-decoration-none" href="KBO_rules.html">규칙</a></li>
+              <li><a class="link-light text-decoration-none" href="KBO_dictionary.html">단어사전</a></li>
+              <li><a class="link-light text-decoration-none" href="KBO_contact.html">연락처/문의</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="fw-bold my-3">SNS</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-link-45deg"></i><a href="https://www.koreabaseball.com/Default.aspx" class="link-light text-decoration-none"> 공식 홈페이지</a></li>
+              <li><i class="bi bi-link-45deg"></i><a href="https://www.youtube.com/@KBO1982" class="link-light text-decoration-none"> 유튜브</a></li>
+              <li><i class="bi bi-link-45deg"></i><a href="https://www.instagram.com/kbo.official/" class="link-light text-decoration-none"> 인스타그램</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="my-3"><i class="bi bi-c-circle"></i> ALL RIGHT RESERVED BY <span class="text-info">KBO 도장깨기</span></p>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+/*new font*/
+@font-face {
+    font-family: 'KBOfont1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    /* font-weight: 700; */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KBOfont2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_medium.woff') format('woff');
+    /* font-weight: 500; */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KBOfont3';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_light.woff') format('woff');
+    /* font-weight: 300; */
+    font-style: normal;
+}
+
+/* 네비게이션 영역 */
+.nav-link.active,
+.nav-link:hover {
+    color: rgb(0, 36, 97) !important;
+    font-weight: bold;
+}
+.scroll {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header {
+    text-shadow:0px 0px 15px rgb(0, 0, 0);
+  }
+
+/* 헤더 영역 */
+#headerCarousel img {
+    filter: grayscale(50%)
+}
+
+#headerCarousel:hover img {
+    filter: grayscale(0%)
+}
+
+/* KBO_home.html 연혁 섹션 */
+.history * { 
+    list-style:none;
+  }
+.history h2 {
+    position: relative; 
+    font-size: 33px; 
+    color: #000; 
+    line-height: 1;
+}
+.history h2:before {
+    content:""; position: absolute;
+    left:-48px; top:50%; transform: translateY(-50%);
+    width: 17px; height: 17px; border-radius: 100%;
+    background:#fff; border: 5px solid rgb(0, 36, 97);
+    box-sizing: border-box;
+}
+.history div {
+    position: relative; 
+    padding: 0 0 0 48px;
+}
+.history div:before { 
+    content:""; 
+    position:absolute; 
+    left:8px; 
+    top:0;
+    width: 2px; 
+    height:100%; 
+    background:#ddd; 
+}
+.history div:first-child:before { 
+    top:10px; 
+    height:calc(100% - 10px); 
+}
+.history ol { 
+    padding: 20px 0 74px; 
+}
+.history li {
+    font-size: 17px; 
+    color:#000; 
+    line-height: 29px; 
+}
+
+/* contact.html  Contact 섹션 */
+.contact-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(images/contact-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: rgb(0, 36, 97);
+    color: white; /* 글자 색상 설정 (예: 흰색) */
+    padding: 20px; /* 필요에 따라 여백 설정 */
+}
+.fontcolorlg {
+    color:rgb(165, 0, 52);
+}
+.fontcolorkt {
+    color:rgb(236, 28, 36);
+}
+.fontcolorssg {
+    color:rgb(206, 14, 45);
+}
+.fontcolornc {
+    color:rgb(29, 70, 125);
+}
+.fontcolords {
+    color:rgb(19, 18, 48);
+}
+.fontcolorkia {
+    color:rgb(234, 0, 38);
+}
+.fontcolorlt {
+    color:rgb(4, 30, 66);
+}
+.fontcolorss {
+    color:rgb(0, 102, 179);
+}
+.fontcolorhw {
+    color:rgb(243, 115, 33);
+}
+.fontcolorkw {
+    color:rgb(135, 0, 31);
+}
