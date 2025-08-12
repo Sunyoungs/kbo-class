@@ -1,24 +1,18 @@
-/*new font*/
 @font-face {
     font-family: 'KBOfont1';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
-    /* font-weight: 700; */
     font-style: normal;
 }
 @font-face {
     font-family: 'KBOfont2';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_medium.woff') format('woff');
-    /* font-weight: 500; */
     font-style: normal;
 }
 @font-face {
     font-family: 'KBOfont3';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_light.woff') format('woff');
-    /* font-weight: 300; */
     font-style: normal;
 }
-
-/* 네비게이션 영역 */
 .nav-link.active,
 .nav-link:hover {
     color: rgb(0, 36, 97) !important;
@@ -32,21 +26,16 @@
 }
 header {
     text-shadow:0px 0px 15px rgb(0, 0, 0);
-  }
-
-/* 헤더 영역 */
+}
 #headerCarousel img {
     filter: grayscale(50%)
 }
-
 #headerCarousel:hover img {
     filter: grayscale(0%)
 }
-
-/* KBO_home.html 연혁 섹션 */
 .history * { 
     list-style:none;
-  }
+}
 .history h2 {
     position: relative; 
     font-size: 33px; 
@@ -85,19 +74,16 @@ header {
     color:#000; 
     line-height: 29px; 
 }
-
-/* contact.html  Contact 섹션 */
 .contact-bg {
     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(images/contact-bg.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
-
 footer {
     background-color: rgb(0, 36, 97);
-    color: white; /* 글자 색상 설정 (예: 흰색) */
-    padding: 20px; /* 필요에 따라 여백 설정 */
+    color: white;
+    padding: 20px;
 }
 .fontcolorlg {
     color:rgb(165, 0, 52);
